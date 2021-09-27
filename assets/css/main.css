@@ -67,6 +67,23 @@ input, select, textarea {
 	appearance: none;
 }
 
+
+.vart{
+  position: absolute;
+  height: 300px;
+  width: auto;
+  top: 0px;
+  right: -8px;
+  transform: rotate(180deg);
+}
+.logoab{
+  width: 100%;
+  text-align: center;
+}
+.simg{
+  width: 100px;
+  
+}
 /* Basic */
 
 	@-ms-viewport {
@@ -123,7 +140,11 @@ input, select, textarea {
 			html {
 				font-size: 11pt;
 			}
-
+			.vart {
+			  height: 170px;
+			  right: 15px;
+			  /* background: red; */
+			}
 		}
 
 		@media screen and (max-width: 360px) {
@@ -131,7 +152,7 @@ input, select, textarea {
 			html {
 				font-size: 10pt;
 			}
-
+			
 		}
 
 	body, input, select, textarea {
